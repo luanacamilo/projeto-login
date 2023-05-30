@@ -9,6 +9,7 @@
 
     section#login {
         width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem {
@@ -21,16 +22,21 @@
         float: right;
         width: 70%;
     }
+
+    div.campo > input {  
+        width: 100%;
+        transform: translateY(-41px);
+    }
 }
 
-@media screen and (min-width:992px) {
-
+@media screen and (min-width:992px)  {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82 );
     }
 
     section#login {
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -52,4 +58,12 @@
     div#formulario > h1 {
         font-size: 2em;
     }
+
+    div.campo > input {  
+        width: 410px;
+    }
 }
+
+    
+
+    
